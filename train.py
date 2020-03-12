@@ -110,3 +110,11 @@ if __name__ == '__main__':
     parser.add_argument('--learning_rate', type=float, default=0.01)
     config = parser.parse_args()
     train(config)
+
+#格式：result_max_length =50
+# embedding_size =32
+# hidden_size =32
+# num_layers =1
+# step_size =10
+# batch_size =8
+# learning_rate =0.01
