@@ -35,6 +35,7 @@ sample.iob
 输出预测
 统计数据
 
+
 ## 6.Result
 
 <img src="https://github.com/DSKSD/RNN-for-Joint-NLU/raw/master/images/jointnlu1.png"/>
