@@ -1,0 +1,331 @@
+Step是0,epoch是0 ：均值为7.7905144691467285
+Step是0,epoch是100 ：均值为2.8888778686523438
+Step是0,epoch是200 ：均值为2.4695651531219482
+Step是0,epoch是300 ：均值为1.9348275661468506
+Step是0,epoch是400 ：均值为1.2953593730926514
+Step是0,epoch是500 ：均值为0.9149646162986755
+Step是1,epoch是0 ：均值为0.7725768089294434
+Step是1,epoch是100 ：均值为0.6362526416778564
+Step是1,epoch是200 ：均值为0.5513582825660706
+Step是1,epoch是300 ：均值为0.472594678401947
+Step是1,epoch是400 ：均值为0.41320446133613586
+Step是1,epoch是500 ：均值为0.3726505935192108
+Step是2,epoch是0 ：均值为0.3295731544494629
+Step是2,epoch是100 ：均值为0.2915481925010681
+Step是2,epoch是200 ：均值为0.31898343563079834
+Step是2,epoch是300 ：均值为0.26329004764556885
+Step是2,epoch是400 ：均值为0.3111518919467926
+Step是2,epoch是500 ：均值为0.24383048713207245
+Step是3,epoch是0 ：均值为0.5586538910865784
+Step是3,epoch是100 ：均值为0.18487128615379333
+Step是3,epoch是200 ：均值为0.18320780992507935
+Step是3,epoch是300 ：均值为0.15103691816329956
+Step是3,epoch是400 ：均值为0.17754290997982025
+Step是3,epoch是500 ：均值为0.19874677062034607
+Step是4,epoch是0 ：均值为0.15622054040431976
+Step是4,epoch是100 ：均值为0.1302753984928131
+Step是4,epoch是200 ：均值为0.1320425271987915
+Step是4,epoch是300 ：均值为0.14451846480369568
+Step是4,epoch是400 ：均值为0.15243446826934814
+Step是4,epoch是500 ：均值为0.13540180027484894
+Step是5,epoch是0 ：均值为0.05387132987380028
+Step是5,epoch是100 ：均值为0.13784371316432953
+Step是5,epoch是200 ：均值为0.09466785192489624
+Step是5,epoch是300 ：均值为0.10305826365947723
+Step是5,epoch是400 ：均值为0.10296458005905151
+Step是5,epoch是500 ：均值为0.1708228439092636
+Step是6,epoch是0 ：均值为0.07827873528003693
+Step是6,epoch是100 ：均值为0.09514287859201431
+Step是6,epoch是200 ：均值为0.10434620082378387
+Step是6,epoch是300 ：均值为0.060305166989564896
+Step是6,epoch是400 ：均值为0.08603113889694214
+Step是6,epoch是500 ：均值为0.10697998851537704
+Step是7,epoch是0 ：均值为0.014375418424606323
+Step是7,epoch是100 ：均值为0.07896549254655838
+Step是7,epoch是200 ：均值为0.0452767051756382
+Step是7,epoch是300 ：均值为0.08539523184299469
+Step是7,epoch是400 ：均值为0.1353214532136917
+Step是7,epoch是500 ：均值为0.11160412430763245
+Step是8,epoch是0 ：均值为0.10161402821540833
+Step是8,epoch是100 ：均值为0.04261370748281479
+Step是8,epoch是200 ：均值为0.06418656557798386
+Step是8,epoch是300 ：均值为0.06740794330835342
+Step是8,epoch是400 ：均值为0.12175606936216354
+Step是8,epoch是500 ：均值为0.16218703985214233
+Step是9,epoch是0 ：均值为0.014060725457966328
+Step是9,epoch是100 ：均值为0.08895864337682724
+Step是9,epoch是200 ：均值为0.1295894831418991
+Step是9,epoch是300 ：均值为0.10951797664165497
+Step是9,epoch是400 ：均值为0.1066603735089302
+Step是9,epoch是500 ：均值为0.0861973837018013
+分类错误的第 1 句：what's restriction ap68
+Truth        : atis_restriction
+Prediction :   atis_abbreviation
+
+分类错误的第 2 句：on united airlines flying from denver to san francisco before 10 am what type of aircraft is used
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 3 句：please list the flight schedule from baltimore to san francisco on friday nights
+Truth        : atis_flight_time
+Prediction :   atis_flight
+
+分类错误的第 4 句：on united airlines give me the flight times from boston to dallas
+Truth        : atis_flight_time
+Prediction :   atis_flight
+
+分类错误的第 5 句：what time are the flights from baltimore to san francisco
+Truth        : atis_flight_time
+Prediction :   atis_flight
+
+分类错误的第 6 句：show me the qx fare flights between atlanta and oakland on delta airlines
+Truth        : atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 7 句：is it possible for me to fly from baltimore to san francisco
+Truth        : atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 8 句：show me prices and times for first class travel from baltimore to dallas next summer
+Truth        : atis_airfare
+Prediction :   atis_flight_time
+
+分类错误的第 9 句：where do the flights from boston to oakland stop
+Truth        : atis_airport
+Prediction :   atis_flight
+
+分类错误的第 10 句：what fare codes cover flights from philadelphia to san francisco
+Truth        : atis_abbreviation
+Prediction :   atis_airfare
+
+分类错误的第 11 句：what are the different classes that an airline offers
+Truth        : atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 12 句：what are the flights and prices from la to charlotte for monday morning
+Truth        : atis_flight
+Prediction :   atis_flight#atis_airfare
+
+分类错误的第 13 句：what is fare class h
+Truth        : atis_abbreviation
+Prediction :   atis_airfare
+
+分类错误的第 14 句：show me the costs and times for flights from san francisco to atlanta
+Truth        : atis_airfare#atis_flight_time
+Prediction :   atis_flight_time
+
+分类错误的第 15 句：describe pittsburgh airport
+Truth        : atis_airport
+Prediction :   atis_flight
+
+分类错误的第 16 句：please list me the flights and their cost of all airlines flying from denver to baltimore
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 17 句：what airline uses the code hp
+Truth        : atis_airline
+Prediction :   atis_airfare
+
+总计有500个句子，其中错误分类的句子有17个
+当前的错误率：3.4000000000000004%
+目标错误率是：2.35%、
+
+分类错误的第 1 句：show flight and prices kansas city to chicago on next wednesday arriving in chicago by 7 pm
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 2 句：what day of the week do flights from nashville to tacoma fly on
+Truth        : atis_day_name
+Prediction :   atis_flight
+
+分类错误的第 3 句：what days of the week do flights from san jose to nashville fly on
+Truth        : atis_day_name
+Prediction :   atis_flight
+
+分类错误的第 4 句：does the airport at burbank have a flight that comes in from kansas city
+Truth        : atis_flight
+Prediction :   atis_airport
+
+分类错误的第 5 句：to what cities from boston does america west fly first class
+Truth        : atis_city
+Prediction :   atis_flight
+
+分类错误的第 6 句：which different airlines go from las vegas to new york city
+Truth        : atis_airline
+Prediction :   atis_airfare
+
+分类错误的第 7 句：what's the fare for a taxi to denver
+Truth        : atis_ground_fare
+Prediction :   atis_airfare
+
+分类错误的第 8 句：which airport is closest to ontario california
+Truth        : atis_airport
+Prediction :   atis_flight
+
+分类错误的第 9 句：list all flights and their fares from indianapolis to memphis on a monday morning
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 10 句：list all flights and their fares from memphis to miami on a wednesday evening
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 11 句：list all flights and their fares for all flights between miami and indianapolis
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 12 句：list all sunday flights from cleveland to nashville and their fares
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 13 句：list the airfare for american airlines flight 19 from jfk to lax
+Truth        : atis_airfare#atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 14 句：list limousine rates for the city of boston
+Truth        : atis_ground_fare
+Prediction :   atis_ground_service
+
+分类错误的第 15 句：what is phl
+Truth        : atis_abbreviation
+Prediction :   atis_flight
+
+分类错误的第 16 句：what is mci
+Truth        : atis_abbreviation
+Prediction :   atis_flight
+
+分类错误的第 17 句：i need a round trip flight from san diego to washington dc and the fares
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 18 句：i need a round trip from atlanta to washington dc and the fares leaving in the morning
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 19 句：i need a round trip from phoenix to washington dc and the fare leaving in the morning
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 20 句：i need flight and airline information for a flight from denver to salt lake city on monday departing after 5 pm
+Truth        : atis_flight#atis_airline
+Prediction :   atis_flight
+
+分类错误的第 21 句：i need flight and fare information for thursday departing prior to 9 am from oakland going to salt lake city
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 22 句：i need flight and fare information departing from oakland to salt lake city on thursday before 8 am
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 23 句：i need flight numbers and airlines for flights departing from oakland to salt lake city on thursday departing before 8 am
+Truth        : atis_flight_no#atis_airline
+Prediction :   atis_flight_no
+
+分类错误的第 24 句：list airports in arizona nevada and california please
+Truth        : atis_airport
+Prediction :   atis_airline
+
+分类错误的第 25 句：list california nevada arizona airports
+Truth        : atis_airport
+Prediction :   atis_city
+
+分类错误的第 26 句：list the arizona airport
+Truth        : atis_airport
+Prediction :   atis_airline
+
+分类错误的第 27 句：what is tpa
+Truth        : atis_abbreviation
+Prediction :   atis_flight
+
+分类错误的第 28 句：list la
+Truth        : atis_city
+Prediction :   atis_flight
+
+分类错误的第 29 句：list la
+Truth        : atis_city
+Prediction :   atis_flight
+
+分类错误的第 30 句：list airfares for first class round trip from detroit to st. petersburg
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 31 句：list seating capacities of delta flights from seattle to salt lake city
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 32 句：give me the flights and fares for a trip to cleveland from miami on wednesday
+Truth        : atis_flight
+Prediction :   atis_flight#atis_airfare
+
+分类错误的第 33 句：how many northwest flights leave st. paul
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 34 句：how many northwest flights leave washington dc
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 35 句：how many flights does northwest have leaving dulles
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 36 句：what is a d9s
+Truth        : atis_abbreviation
+Prediction :   atis_flight
+
+分类错误的第 37 句：what is a d9s
+Truth        : atis_abbreviation
+Prediction :   atis_flight
+
+分类错误的第 38 句：are snacks served on tower air
+Truth        : atis_meal
+Prediction :   atis_flight
+
+分类错误的第 39 句：what is the lowest fare from bwi to salt lake city
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 40 句：what is the seating capacity of the type of aircraft m80
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 41 句：what is 73s
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 42 句：how many passengers can fly on a 757
+Truth        : atis_capacity
+Prediction :   atis_quantity
+
+分类错误的第 43 句：list all of the daily flights arriving in denver from 8 to 9 pm
+Truth        : atis_flight
+Prediction :   atis_ground_service
+
+分类错误的第 44 句：tell me about the m80 aircraft
+Truth        : atis_aircraft
+Prediction :   atis_ground_service
+
+分类错误的第 45 句：tell me about the m80 aircraft
+Truth        : atis_aircraft
+Prediction :   atis_ground_service
+
+分类错误的第 46 句：list all flights on all types of aircraft arriving in denver between 8 and 9 pm
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 47 句：what is cvg
+Truth        : atis_abbreviation
+Prediction :   atis_flight
+
+分类错误的第 48 句：how many flights does alaska airlines have to burbank
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 49 句：is there one airline that flies from burbank to milwaukee milwaukee to st. louis and from st. louis to burbank
+Truth        : atis_airline
+Prediction :   atis_flight
+
+总计有893个句子，其中错误分类的句子有49个
+当前的错误率：5.487122060470324%
+目标错误率是：2.35%

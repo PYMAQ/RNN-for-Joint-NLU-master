@@ -1,0 +1,255 @@
+分类错误的第 1 句：on april first i need a ticket from tacoma to san jose departing before 7 am
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 2 句：show flight and prices kansas city to chicago on next wednesday arriving in chicago by 7 pm
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 3 句：what day of the week do flights from nashville to tacoma fly on
+Truth        : atis_day_name
+Prediction :   atis_flight
+
+分类错误的第 4 句：what days of the week do flights from san jose to nashville fly on
+Truth        : atis_day_name
+Prediction :   atis_flight
+
+分类错误的第 5 句：does the airport at burbank have a flight that comes in from kansas city
+Truth        : atis_flight
+Prediction :   atis_airport
+
+分类错误的第 6 句：which different airlines go from las vegas to new york city
+Truth        : atis_airline
+Prediction :   atis_airfare
+
+分类错误的第 7 句：what are the fares for ground transportation in denver
+Truth        : atis_ground_fare
+Prediction :   atis_ground_service
+
+分类错误的第 8 句：does us air fly from cincinnati to denver on june sixth
+Truth        : atis_flight
+Prediction :   atis_airline
+
+分类错误的第 9 句：which airport is closest to ontario california
+Truth        : atis_airport
+Prediction :   atis_airline
+
+分类错误的第 10 句：list all flights and their fares from indianapolis to memphis on a monday morning
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 11 句：list all flights and their fares from memphis to miami on a wednesday evening
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 12 句：list all flights and their fares for all flights between miami and indianapolis
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 13 句：list all sunday flights from cleveland to nashville and their fares
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 14 句：how long does a flight from baltimore to san francisco take
+Truth        : atis_distance
+Prediction :   atis_flight
+
+分类错误的第 15 句：list the airfare for american airlines flight 19 from jfk to lax
+Truth        : atis_airfare#atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 16 句：list the distance in miles from boston airport to downtown boston
+Truth        : atis_distance
+Prediction :   atis_capacity
+
+分类错误的第 17 句：list the distance in miles from new york's la guardia airport to downtown new york city
+Truth        : atis_distance
+Prediction :   atis_aircraft
+
+分类错误的第 18 句：list the distance in miles from toronto international airport to downtown toronto
+Truth        : atis_distance
+Prediction :   atis_capacity
+
+分类错误的第 19 句：list the distance in miles from san francisco international airport to san francisco downtown
+Truth        : atis_distance
+Prediction :   atis_aircraft
+
+分类错误的第 20 句：list limousine rates for the city of boston
+Truth        : atis_ground_fare
+Prediction :   atis_ground_service
+
+分类错误的第 21 句：what is the seating capacity for aircraft l10
+Truth        : atis_capacity
+Prediction :   atis_airline
+
+分类错误的第 22 句：i would like to have the airline that flies toronto detroit and st. louis
+Truth        : atis_airline
+Prediction :   atis_flight
+
+分类错误的第 23 句：what is phl
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 24 句：what is mci
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 25 句：how many passengers can an l1011 aircraft hold
+Truth        : atis_capacity
+Prediction :   atis_quantity
+
+分类错误的第 26 句：what is the seating capacity for the aircraft m80
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 27 句：i need a round trip from atlanta to washington dc and the fares leaving in the morning
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 28 句：i need a round trip from phoenix to washington dc and the fare leaving in the morning
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 29 句：get saturday fares from washington to toronto
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 30 句：i need flight and airline information for a flight from denver to salt lake city on monday departing after 5 pm
+Truth        : atis_flight#atis_airline
+Prediction :   atis_airline
+
+分类错误的第 31 句：i need flight and fare information for thursday departing prior to 9 am from oakland going to salt lake city
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 32 句：i need flight and fare information departing from oakland to salt lake city on thursday before 8 am
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 33 句：i need flight numbers and airlines for flights departing from oakland to salt lake city on thursday departing before 8 am
+Truth        : atis_flight_no#atis_airline
+Prediction :   atis_flight_no
+
+分类错误的第 34 句：list california nevada arizona airports
+Truth        : atis_airport
+Prediction :   atis_flight
+
+分类错误的第 35 句：list the arizona airport
+Truth        : atis_airport
+Prediction :   atis_airfare
+
+分类错误的第 36 句：what is tpa
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 37 句：what are restrictions ap 57
+Truth        : atis_abbreviation
+Prediction :   atis_restriction
+
+分类错误的第 38 句：list la
+Truth        : atis_city
+Prediction :   atis_flight
+
+分类错误的第 39 句：list la
+Truth        : atis_city
+Prediction :   atis_flight
+
+分类错误的第 40 句：list airfares for first class round trip from detroit to st. petersburg
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 41 句：list seating capacities of delta flights from seattle to salt lake city
+Truth        : atis_capacity
+Prediction :   atis_flight
+
+分类错误的第 42 句：give me the flights and fares for a trip to cleveland from miami on wednesday
+Truth        : atis_flight
+Prediction :   atis_flight#atis_airfare
+
+分类错误的第 43 句：give me the meal flights departing early saturday morning from chicago to seattle nonstop
+Truth        : atis_flight
+Prediction :   atis_meal
+
+分类错误的第 44 句：how many northwest flights leave st. paul
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 45 句：how many northwest flights leave washington dc
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 46 句：how many flights does northwest have leaving dulles
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+分类错误的第 47 句：what is a d9s
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 48 句：what is a d9s
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 49 句：are meals ever served on tower air
+Truth        : atis_meal
+Prediction :   atis_abbreviation
+
+分类错误的第 50 句：are snacks served on tower air
+Truth        : atis_meal
+Prediction :   atis_flight
+
+分类错误的第 51 句：what is the seating capacity on the aircraft 733
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 52 句：what is the seating capacity of the aircraft 72s
+Truth        : atis_capacity
+Prediction :   atis_airline
+
+分类错误的第 53 句：what is the seating capacity of the aircraft m80
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 54 句：what is the seating capacity of the type of aircraft m80
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 55 句：what is the capacity of the 73s
+Truth        : atis_capacity
+Prediction :   atis_quantity
+
+分类错误的第 56 句：what is 73s
+Truth        : atis_abbreviation
+Prediction :   atis_restriction
+
+分类错误的第 57 句：what is seating capacity on the aircraft 73s
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 58 句：how many people will a 757 hold
+Truth        : atis_capacity
+Prediction :   atis_quantity
+
+分类错误的第 59 句：how many passengers can fly on a 757
+Truth        : atis_capacity
+Prediction :   atis_quantity
+
+分类错误的第 60 句：what is the seating capacity of the 733
+Truth        : atis_capacity
+Prediction :   atis_flight_no
+
+分类错误的第 61 句：what is the seating capacity on the aircraft m80
+Truth        : atis_capacity
+Prediction :   atis_aircraft
+
+分类错误的第 62 句：what is cvg
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 63 句：how many flights does alaska airlines have to burbank
+Truth        : atis_flight
+Prediction :   atis_quantity
+
+总计有893个句子，其中错误分类的句子有63个
+当前的错误率：7.054871220604703%
+目标错误率是：2.35%

@@ -1,0 +1,85 @@
+分类错误的第 1 句：what's restriction ap68
+Truth        : atis_restriction
+Prediction :   atis_abbreviation
+
+分类错误的第 2 句：on united airlines flying from denver to san francisco before 10 am what type of aircraft is used
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 3 句：sure i'd like to determine what aircraft are use on july seventh leaving from boston and arriving in atlanta on july seventh
+Truth        : atis_aircraft
+Prediction :   atis_flight
+
+分类错误的第 4 句：on united airlines give me the flight times from boston to dallas
+Truth        : atis_flight_time
+Prediction :   atis_flight
+
+分类错误的第 5 句：how much is a limousine between dallas fort worth international airport and dallas
+Truth        : atis_ground_fare
+Prediction :   atis_airfare
+
+分类错误的第 6 句：how many passengers can a boeing 737 hold
+Truth        : atis_capacity
+Prediction :   atis_quantity
+
+分类错误的第 7 句：list the fares of midway airlines flights from boston to philadelphia
+Truth        : atis_airfare
+Prediction :   atis_airline
+
+分类错误的第 8 句：does flight ua 270 from denver to philadelphia have a meal
+Truth        : atis_flight
+Prediction :   atis_flight#atis_airfare
+
+分类错误的第 9 句：show me the qx fare flights between atlanta and oakland on delta airlines
+Truth        : atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 10 句：show me all the types of aircraft
+Truth        : atis_aircraft
+Prediction :   atis_cheapest
+
+分类错误的第 11 句：what city is mco
+Truth        : atis_city
+Prediction :   atis_abbreviation
+
+分类错误的第 12 句：okay we're going from washington to denver first class ticket i'd like to know the cost of a first class ticket
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 13 句：is it possible for me to fly from baltimore to san francisco
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 14 句：where do the flights from boston to oakland stop
+Truth        : atis_airport
+Prediction :   atis_flight
+
+分类错误的第 15 句：what fare codes cover flights from philadelphia to san francisco
+Truth        : atis_abbreviation
+Prediction :   atis_airfare
+
+分类错误的第 16 句：what are the different classes that an airline offers
+Truth        : atis_flight
+Prediction :   atis_capacity
+
+分类错误的第 17 句：when do planes leave boston for
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 18 句：what are the flights and prices from la to charlotte for monday morning
+Truth        : atis_flight
+Prediction :   atis_flight#atis_airfare
+
+分类错误的第 19 句：show me the costs and times for flights from san francisco to atlanta
+Truth        : atis_airfare#atis_flight_time
+Prediction :   atis_flight_time
+
+分类错误的第 20 句：describe pittsburgh airport
+Truth        : atis_airport
+Prediction :   atis_ground_service
+
+分类错误的第 21 句：please list me the flights and their cost of all airlines flying from denver to baltimore
+Truth        : atis_flight#atis_airfare
+Prediction :   atis_airfare
+
+总计有500个句子，其中错误分类的句子有21个当前的错误率：4.2%目标错误率是：2.35%

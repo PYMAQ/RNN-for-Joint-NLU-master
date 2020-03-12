@@ -1,0 +1,124 @@
+Step是0,epoch是100 ：均值为2.665771484375
+Step是0,epoch是200 ：均值为1.2797627449035645
+Step是1,epoch是0 ：均值为0.6674523949623108
+Step是1,epoch是100 ：均值为0.48321518301963806
+Step是1,epoch是200 ：均值为0.4337977468967438
+Step是2,epoch是0 ：均值为0.524071216583252
+Step是2,epoch是100 ：均值为0.2126855105161667
+Step是2,epoch是200 ：均值为0.2306431233882904
+Step是3,epoch是0 ：均值为0.07374808937311172
+Step是3,epoch是100 ：均值为0.13093386590480804
+Step是3,epoch是200 ：均值为0.13616067171096802
+Step是4,epoch是0 ：均值为0.03583250194787979
+Step是4,epoch是100 ：均值为0.10526950657367706
+Step是4,epoch是200 ：均值为0.1509542316198349
+Step是5,epoch是0 ：均值为0.033348843455314636
+Step是5,epoch是100 ：均值为0.12371145188808441
+Step是5,epoch是200 ：均值为0.14328770339488983
+Step是6,epoch是0 ：均值为0.025332067161798477
+Step是6,epoch是100 ：均值为0.11310453712940216
+Step是6,epoch是200 ：均值为0.12457221001386642
+Step是7,epoch是0 ：均值为0.04442521184682846
+Step是7,epoch是100 ：均值为0.07708196341991425
+Step是7,epoch是200 ：均值为0.07854553312063217
+Step是8,epoch是0 ：均值为0.049489304423332214
+Step是8,epoch是100 ：均值为0.05907177925109863
+Step是8,epoch是200 ：均值为0.054571088403463364
+Step是9,epoch是0 ：均值为0.01483994908630848
+Step是9,epoch是100 ：均值为0.06135616451501846
+Step是9,epoch是200 ：均值为0.04831388592720032
+Step是10,epoch是0 ：均值为0.054249607026576996
+Step是10,epoch是100 ：均值为0.06358042359352112
+Step是10,epoch是200 ：均值为0.05800739675760269
+Step是11,epoch是0 ：均值为0.009046721272170544
+Step是11,epoch是100 ：均值为0.08551693707704544
+Step是11,epoch是200 ：均值为0.1166897788643837
+Step是12,epoch是0 ：均值为0.07201723009347916
+Step是12,epoch是100 ：均值为0.09176258742809296
+Step是12,epoch是200 ：均值为0.07280982285737991
+Step是13,epoch是0 ：均值为0.025434106588363647
+Step是13,epoch是100 ：均值为0.054604291915893555
+Step是13,epoch是200 ：均值为0.06137130782008171
+Step是14,epoch是0 ：均值为0.031267356127500534
+Step是14,epoch是100 ：均值为0.061440858989953995
+Step是14,epoch是200 ：均值为0.07187595963478088
+Step是15,epoch是0 ：均值为0.03763353452086449
+Step是15,epoch是100 ：均值为0.07558534294366837
+Step是15,epoch是200 ：均值为0.051688361912965775
+
+
+分类错误的第 1 句：okay can you tell me the flight cost between denver and atlanta
+Truth        : atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 2 句：what's restriction ap68
+Truth        : atis_restriction
+Prediction :   atis_abbreviation
+
+分类错误的第 3 句：on united airlines flying from denver to san francisco before 10 am what type of aircraft is used
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 4 句：find me the earliest boston departure and the latest atlanta return trip so that i can be on the ground the maximum amount of time in atlanta and return to boston on the same day
+Truth        : atis_flight
+Prediction :   atis_flight_time
+
+分类错误的第 5 句：on united airlines give me the flight times from boston to dallas
+Truth        : atis_flight_time
+Prediction :   atis_flight
+
+分类错误的第 6 句：i need the cost of a ticket going from denver to baltimore a first class ticket on united airlines
+Truth        : atis_airfare
+Prediction :   atis_ground_fare
+
+分类错误的第 7 句：does flight ua 270 from denver to philadelphia have a meal
+Truth        : atis_flight
+Prediction :   atis_meal
+
+分类错误的第 8 句：show me the qx fare flights between atlanta and oakland on delta airlines
+Truth        : atis_flight
+Prediction :   atis_airfare
+
+分类错误的第 9 句：what city is mco
+Truth        : atis_city
+Prediction :   atis_abbreviation
+
+分类错误的第 10 句：are there any turboprop flights from pittsburgh to baltimore on december seventeenth
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 11 句：where do the flights from boston to oakland stop
+Truth        : atis_airport
+Prediction :   atis_flight
+
+分类错误的第 12 句：what fare codes cover flights from philadelphia to san francisco
+Truth        : atis_abbreviation
+Prediction :   atis_aircraft
+
+分类错误的第 13 句：what are the different classes that an airline offers
+Truth        : atis_flight
+Prediction :   atis_abbreviation
+
+分类错误的第 14 句：when do planes leave boston for
+Truth        : atis_flight
+Prediction :   atis_aircraft
+
+分类错误的第 15 句：and how much does it cost to travel from boston airport to downtown
+Truth        : atis_airfare
+Prediction :   atis_ground_fare
+
+分类错误的第 16 句：show me the costs and times for flights from san francisco to atlanta
+Truth        : atis_airfare#atis_flight_time
+Prediction :   atis_airfare
+
+分类错误的第 17 句：round trip fares from pittsburgh to philadelphia under 1000 dollars
+Truth        : atis_airfare
+Prediction :   atis_flight
+
+分类错误的第 18 句：describe pittsburgh airport
+Truth        : atis_airport
+Prediction :   atis_city
+
+总计有500个句子，其中错误分类的句子有18个
+当前的错误率：3.5999999999999996%
+目标错误率是：2.35%
